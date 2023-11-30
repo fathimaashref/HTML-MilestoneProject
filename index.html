@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> <strong>Application Form </strong> </h1>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"> <br><br>
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob">
+        <label for="age">Age:</label>
+        <input type="number" min="18" max="30" id="age" name="age" column="40">
+        <br><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email" placeholder="Enter email address"> <br><br>
+        <label for="position">Positions Available:</label>
+        <input type="radio" id="jd">
+        <label for="jd">Junior developer</label>
+        <input type="radio" id="md">
+        <label for="md">Mid-level Developer</label>
+        <input type="radio" id="sd">
+        <label for="sd">Senior developer</label><br><br>
+        
+        <label for="lang">Programming Languages:</label>
+        <input type="checkbox" id="java" name="java">
+        <label for="java">Java</label>
+        <input type="checkbox" id="javascript" name="javascript">
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" id="py" name="py">
+        <label for="py">Python</label> <br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass">
+        <label for="cpass">Confirm Password:</label>
+        <input type="password" id="cpass" name="cpass"> <br><br>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
